@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>花旗轻享卡</title>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <script>
+        !function (n) {
+            var e = n.document,
+                t = e.documentElement,
+                i = 750,
+                d = i / 100,
+                o = "orientationchange" in n ? "orientationchange" : "resize",
+                a = function () {
+                    var n = t.clientWidth || 320;
+                    n > 750 && (n = 750);
+                    t.style.fontSize = n / d + "px"
+                };
+            e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
+        }(window);
+    </script>
+</head>
+<body>
+<div class="bantop" id="bantop">
+<header></header>
+    <section class="kv" id="kv"></section>
+    <section class="gps" id="gps"></section>
+    <section class="content" id="content">
+        <p class="bl">即刻办理分期交易，享限时双重好礼</p>
+        <ul class="middle">
+            <li>
+                <div class="xshl_title">
+                    <img src="img/icon_1.png" alt="" style="width:.17rem;height:.17rem;">
+                    <span>限时好礼一</span>
+                </div>
+                <div class="xshl_content" id="xshl1">
+                    <p>月手续费率</p>
+                    <p><span style="font-size:.8rem;opacity:1;">0.5</span>%</p>
+                </div>
+            </li>
+            <li><big>+</big></li>
+            <li>
+                <div class="xshl_title">
+                    <img src="img/icon_1.png" alt="" style="width:.17rem;height:.17rem;">
+                    <span>限时好礼二</span>
+                </div>
+                <div class="xshl_content" id="xshl2">
+                    <p>最高返现</p>
+                    <p><span style="font-size:.8rem;opacity:1;">1,000</span>元</p>
+                </div>
+            </li>
+        </ul>
+
+
+        <div class="hl1_show" id="hl1">
+            <div class="hl1_show1">
+                <img src="img/icon_2.png" alt="">
+                <span>月手续费率低至<span style="font-size:.5rem;">0.5</span>%</span>
+            </div>
+            <div class="hl1_show2">
+                <ul>
+                    <li class="sjx">分期期数</li>
+                    <li>12期</li>
+                    <li>24期</li>
+                    <li>36期</li>
+                    <li>48期</li>
+                </ul>
+                <ul>
+                    <li class="sjx">每期费率</li>
+                    <li>0.70%</li>
+                    <li>0.65%</li>
+                    <li>0.60%</li>
+                    <li>0.50%</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="hl2_show" id="hl2">
+            <div class="hl1_show1">
+                <img src="img/icon_3.png" alt="">
+                <span>最高返现<span style="font-size:.5rem;">1,000</span>元</span>
+            </div>
+            <div class="hl2_show2">
+                <p class="show_title">
+                    <img src="img/icon_hl1.png" alt=""><span class="title_color">好礼一</span>
+                </p>
+                <p>2018年7月1日至9月30日期间首次成功申请花旗轻享卡的新客户于核卡后90天内，办理任意一笔自动分期或现金分期，即可获享<span class="title_color">200</span>元刷卡金好礼。</p>
+                <p class="show_title">
+                    <img src="img/icon_hl2.png" alt=""><span class="title_color">好礼二</span>
+                </p>
+                <p>办理期数满24期及以上现金分期，更可额外享如下刷卡金礼遇</p>
+                <ul>
+                    <li><span class="dian">·</span>满15,000元 , 额外享<span class="title_color">300</span>元刷卡金</li>
+                    <li><span class="dian">·</span>满30,000元 , 额外享<span class="title_color">800</span>元刷卡金</li>
+                </ul>
+                <p class="tips">立即办理现金分期，最高获享<span class="title_color">200</span>元+<span class="title_color">800</span>元刷卡金返还</p>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <p>核卡后90天内办理以上分期交易，即享新户限时好礼</p>
+            <button class="btn" onclick="window.location.href='https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx58620fe32cceca68&redirect_uri=https%3A%2F%2Fwebservice.citibank.com.cn%2FCitiWeb%2Fstage.do%3Faction%3DcashStage&response_type=code&scope=snsapi_base&state=wec&#wechat_redirect'">立即领取新户好礼</button>
+            <p onclick="showMask()"><u>活动条款</u></p>
+        </div>
+    </section>
+</div>
+
+<div class="rule">
+    <div class="close" id="close">+</div>
+    <p>花旗轻享卡新户分期交易限时好礼条款及细则：</p>
+    <ol>
+        <li>本活动期间自2018年7月1日起至2018年9月30日（含起讫日）。</li>
+        <li>本活动仅可由在活动期间内提出信用卡申请并经核准的花旗轻享卡主卡持卡人（“持卡人”）参与。在活动期间开始前已申请或持有花旗银行信用卡的持卡人不可参加本活动。申请人于活动期间申请并获核准两种以上（含）的花旗信用卡，持卡人将仅参加卡种级别较高的新户活动，不可同时参加（请知晓，为本活动之目的，卡种级别由高至低依次为花旗至享卡、花旗礼程卡、花旗轻享卡、花旗礼享卡）。</li>
+        <li>该轻享卡新卡现金分期活动不可与其他现金分期活动同享。</li>
+        <li>持卡人在核卡后 90天（自然日）内，满足如下活动条件即可获得相应的刷卡金奖励。具体活动内容和奖励金额如下：
+            <table border="1" cellspacing="0px">
+                <tr>
+                    <td>活动</td>
+                    <td>核卡后天数<br>(自然日)</td>
+                    <td>获赠条件和获赠礼品</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">好礼一</td>
+                    <td rowspan="2">90天内</td>
+                    <td>成功办理任意一笔自动分期或现金分期，获享200元刷卡金</td>
+                </tr>
+                <tr>
+                    <td>温馨提示：仅对活动期间内符合好礼一活动条件的首笔自动分期或现金分期交易金额进行奖励。</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">好礼二</td>
+                    <td rowspan="2">90天内</td>
+                    <td>成功办理期数满24期及以上现金分期，且达到如下现金分期本金金额（人民币），可额外获享刷卡金好礼
+                    <table border="1" cellspacing="0px" style="text-align: center;">
+                        <tr>
+                            <td>
+                                满足人民币<br>
+                                15,000(含)-30,000元
+                            </td>
+                            <td>
+                                满足人民币<br>
+                                30,000元(含)以上
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>额外获享300元刷卡金</td>
+                            <td>额外获享800元刷卡金</td>
+                        </tr>
+                    </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>温馨提示：仅对活动期间内符合好礼二活动条件的首笔现金分期交易金额进行奖励。</td>
+                </tr>
+            </table>
+        </li>
+        <li>如满足获赠条件，刷卡金将于成功办理分期的第四个月左右计入持卡人的主卡账户。</li>
+        <li>若持卡人撤销分期交易，或未能按期偿还分期金额或手续费,花旗银行有权利取消、撤回或要求持卡人返还相应奖励。</li>
+        <li>返还的刷卡金仅可用于抵扣刷卡消费，不可用于取现，不可抵扣年费、利息或获得刷卡金之前已产生的任何信用卡欠款。</li>
+        <li>持卡人获得的刷卡金的有效期为自刷卡金导入之日起的3个自然月。例如，刷卡金于2018年8月20日导入持卡人的花旗人民币信用卡主卡账户中，则持卡人需在2018年11月20日之前使用该刷卡金，超过该有效期，该刷卡金将无效。</li>
+        <li>如满足获赠条件，银行将在如上活动条款中规定的时间发放礼品。如未在相应时间内收到礼品，请持卡人于满足获赠条件后六个月内联系本行，否则将视为放弃礼品。</li>
+        <li>逾期账户、销户账户和被冻结账户等非正常状态账户不参加本次活动，若信用卡账户在获得礼品前已被注销，则视为持卡人放弃获赠。</li>
+        <li>个人信用卡透支应当用于消费领域，不得用于生产经营、投资等非消费领域（包括套现），否则本行有权对其信用卡采取拒绝批准交易或暂停信用卡功能等管制措施而无需通知持卡人。</li>
+        <li>持卡人发生任何虚假、欺诈、套现、用于生产经营、投资等非消费领域、恶意分单等违法或不正常交易，或持卡人存在任何违反花旗银行信用卡相关条款和条件的行为，或持卡人账户发生逾期、冻结等非正常状态或在获赠前已销卡、或持卡人在出现疑似不正常交易但拒绝配合银行进行调查、或符合本活动条件的交易最终被撤销、退货或未入账的，则花旗银行有权对相关交易进行调查核实、拒绝该等持卡人参加本活动、变更和取消其获赠任何奖励及在无法退还奖励时从持卡人账户中扣除相关奖励的现金价值。</li>
+        <li>在法律允许的范围内，花旗银行有权解释、修改本活动规则、暂停或提前终止本活动。本活动未尽事宜，仍同时受“花旗礼赏世界积分奖励计划条款细则”、《花旗银行信用卡(个人卡)章程》、《花旗银行信用卡(个人卡)领用合约》及其他相关文件约束。</li>
+        <li>本条款所述“花旗"或“花旗银行"指花旗银行（中国）有限公司；“花旗银行信用卡"或“花旗信用卡"或“信用卡"指花旗银行（中国）有限公司发行的个人信用卡。</li>
+    </ol>
+</div>
+
+
+<div id="mask" class="mask"></div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<!--关闭按钮-->
+<script>
+    $('.close').click(function () {
+        $('.rule').hide();
+        $("#mask").hide();
+        $("#mask").css({"z-index":"30"});
+        $('html,body').css({"overflow":""});
+    })
+</script>
+<script>
+    function showMask(){
+        $("#mask").css("height",$(document).height());
+        $("#mask").css("width",$(document).width());
+        $("#mask").show();
+        $(".rule").show();
+        $("html,body").css({"overflow":"hidden"});
+    }
+</script>
+<script>
+    var clicknum1 = 0;
+    var yunum1;
+    var clicknum2 = 0;
+    var yunum2;
+    var val1 = $("#xshl1").val();
+    var val2 = $("#xshl2").val();
+    $("#xshl1").click(function () {
+        clicknum1 += 1;
+        yunum1 = clicknum1%2;
+        val1 = yunum1;
+        if (val1 == 1){
+            $("#hl1").show();
+            $("#bantop").removeClass();
+            /*$("#bantop").css({"margin-top":"1.06rem"});*/
+            $("html,body").animate({scrollTop: $("#gps").offset().top}, 300);
+            $("#xshl1 p").hide();
+            $("#xshl1").removeClass().addClass("xshl_content_show");
+            clicknum2 = 0;
+            yunum2 = 0;
+            val2 = 0;
+            $("#hl2").hide();
+            $("#xshl2 p").show();
+            $("#xshl2").removeClass().addClass("xshl_content");
+           /* console.log(yunum1);
+            console.log(val1);
+            console.log(yunum2);
+            console.log(val2);*/
+        }else if(val1 == 0){
+            $("#hl1").hide();
+            $("#xshl1 p").show();
+            $("#xshl1").removeClass().addClass("xshl_content");
+            $("#bantop").removeClass().addClass("bantop");
+            /*$("#bantop").css({"margin-top":"0"});*/
+            $("html,body").animate({scrollTop:0},300);
+            /*console.log(yunum1);
+            console.log(val1);
+            console.log(yunum2);
+            console.log(val2);*/
+        }
+    });
+
+    $("#xshl2").click(function () {
+        clicknum2 += 1;
+        yunum2 = clicknum2%2;
+        /*console.log(clicknum2);
+        console.log(yunum2);*/
+        val2 = yunum2;
+        /*console.log(val2);*/
+        if (val2 == 1){
+            $("#hl2").show();
+            $("html,body").animate({scrollTop: $("#gps").offset().top}, 300);
+            $("#xshl2 p").hide();
+            $("#bantop").removeClass();
+            /*$("#bantop").css({"margin-top":"1.06rem"});*/
+            $("#xshl2").removeClass().addClass("xshl_content_show1");
+            clicknum1 = 0;
+            yunum1 = 0;
+            val1 = 0;
+            $("#hl1").hide();
+            $("#xshl1 p").show();
+            $("#xshl1").removeClass().addClass("xshl_content");
+            /*console.log(yunum1);
+            console.log(val1);
+            console.log(yunum2);
+            console.log(val2);*/
+        }else if(val2 == 0){
+            $("#hl2").hide();
+            $("#xshl2 p").show();
+            $("#xshl2").removeClass().addClass("xshl_content");
+            $("#bantop").removeClass().addClass("bantop");
+            /*$("#bantop").css({"margin-top":"0"});*/
+            $("html,body").animate({scrollTop:0},300);
+            /*console.log(yunum1);
+            console.log(val1);
+            console.log(yunum2);
+            console.log(val2);*/
+        }
+    });
+</script>
+</body>
+</html>
